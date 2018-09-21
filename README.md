@@ -14,7 +14,7 @@ invisible.
 
 Mihari
 
-![Mihari](https://i.loli.net/2018/09/21/5ba4e08727893.png)
+![Mihari](https://i.loli.net/2018/09/21/5ba4e08736380.png)
 
 Previews for Mahiro coming Soon™
 
@@ -54,4 +54,4 @@ The names of these themes come from the manga _Onī-chan wa Oshimai! (Don't be a
 
 More info on this manga at [Wikipedia (Chinese)](https://zh.wikipedia.org/wiki/%E5%88%AB%E5%BD%93%E6%AC%A7%E5%B0%BC%E9%85%B1%E4%BA%86%EF%BC%81), [Wikipedia (Japanese)](https://ja.wikipedia.org/wiki/%E3%81%8A%E5%85%84%E3%81%A1%E3%82%83%E3%82%93%E3%81%AF%E3%81%8A%E3%81%97%E3%81%BE%E3%81%84!), and [Pixiv](https://www.pixiv.net/user/159912/series/12).
 
-![](https://i.loli.net/2018/09/21/5ba4e08736380.png)
+![](https://i.loli.net/2018/09/21/5ba4e08727893.png)
