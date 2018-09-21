@@ -22,6 +22,21 @@
   */
 
   "colors": {
+    "selection.background": "#2E363C",
+    "foreground": "#90989F",
+    "focusBorder": "#2E363C",
+    "widget.shadow": "#0000003D",
+    "errorForeground": "#FF5B35",
+
+    "input.background": "#1E252A",
+    "input.border": "#2E363C",
+    "input.foreground": "#90989F",
+    "input.placeholderForeground": "#454D53",
+    "inputOption.activeBorder": "#BA55D8",
+    "inputValidation.errorBorder": "#E32636",
+    "inputValidation.infoBorder": "#7B92C9",
+    "inputValidation.warningBackground": "#E1BD09",
+
     "editor.background": "#1E252A",
     "editor.foreground": "#90989F",
     "editor.selectionHighlightBackground": "#C4CDD544",
@@ -35,9 +50,12 @@
     "editorIndentGuide.background": "#0F171C",
     "editorIndentGuide.activeBackground": "#2E363C",
     "editor.hoverHighlightBackground": "#0F171C",
-    "editor.wordHighlightBackground": "#0F171C",
+    "editor.wordHighlightBackground": "#8BA66A44",
+    "editor.wordHighlightStrongBackground": "#BA55D844",
     // "editor.selectionHighlightBorder": "#BA55D8",
-    "editor.inactiveSelectionBackground": "#0F171C",
+
+    "editorWidget.background": "#0F171C",
+    "editorWidget.border": "#2E363C",
 
     "editorGutter.commentRangeForeground": "#454D53",
     "editorGutter.addedBackground": "#8BA66A",
@@ -54,10 +72,6 @@
 
     "scrollbarSlider.background": "#90989f22",
     "scrollbarSlider.activeBackground": "#C4CDD522",
-
-    "selection.background": "#2E363C",
-    "focusBorder": "#BA55D8",
-    "widget.shadow": "#00000000",
 
     /* drops */
     "activityBar.dropBackground": "#BA55D844",
@@ -83,6 +97,7 @@
     "sideBarSectionHeader.background": "#1E252A", // base2
     "sideBar.background": "#1E252A", // base2
     "sideBar.foreground": "#90989F", // base0
+    "sideBar.dropBackground": "#BA55D844",
     "list.activeSelectionBackground": "#0F171C",
     "list.inactiveSelectionBackground": "#0F171C",
 
@@ -105,7 +120,7 @@
     "editorGroupHeader.noTabsBackground": "#1E252A",
     "editorGroup.dropBackground": "#7B92C944",
 
-    "tab.activeBackground": "#0F171C",
+    "tab.activeBackground": "#1E252A",
     "tab.activeForeground": "#90989F",
     "tab.activeBorder": "#BA55D8",
     "tab.unfocusedActiveBorder": "#BA55D8",
@@ -123,11 +138,14 @@
     "panel.background": "#1E252A", // base2
     "panel.border": "#00000000",
     "panelTitle.activeForeground": "#90989F",
+    "panelTitle.activeBorder": "#BA55D8",
     "panelTitle.inactiveForeground": "#454D53",
 
-    /* */
+    /* Settings */
+    // "settings.checkboxBackground": "#ff0000",
 
     /* Shell */
+    "terminal.foreground": "#90989F",
     "terminal.ansiBlack": "#1E252A",
     "terminal.ansiWhite": "#90989F",
     "terminal.ansiRed": "#E32636",
@@ -178,10 +196,17 @@
     },
     {
       "name": "Keyword, Storage",
-      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "scope": ["keyword", "storage.type"],
       "settings": {
         "foreground": "#7B92C9",
         "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Modifier",
+      "scope": ["storage.modifier"],
+      "settings": {
+        "foreground": "#7b92c9"
       }
     },
     {
@@ -232,14 +257,14 @@
       "name": "Block Level Variables",
       "scope": ["meta.block variable.other"],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#90989F"
       }
     },
     {
       "name": "Other Variable, String Link",
       "scope": ["support.other.variable", "string.other.link"],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#90989F"
       }
     },
     {
@@ -455,79 +480,7 @@
         "source.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#C792EA"
-      }
-    },
-    {
-      "name": "JSON Key - Level 1",
-      "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
-      "settings": {
-        "foreground": "#E1BD09"
-      }
-    },
-    {
-      "name": "JSON Key - Level 2",
-      "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
-      "settings": {
-        "foreground": "#FF5B35"
-      }
-    },
-    {
-      "name": "JSON Key - Level 3",
-      "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
-      "settings": {
-        "foreground": "#8BA66A"
-      }
-    },
-    {
-      "name": "JSON Key - Level 4",
-      "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
-      "settings": {
-        "foreground": "#649AA2"
-      }
-    },
-    {
-      "name": "JSON Key - Level 5",
-      "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
-      "settings": {
         "foreground": "#7B92C9"
-      }
-    },
-    {
-      "name": "JSON Key - Level 6",
-      "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
-      "settings": {
-        "foreground": "#DF3D8B"
-      }
-    },
-    {
-      "name": "JSON Key - Level 7",
-      "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
-      "settings": {
-        "foreground": "#E1BD09"
-      }
-    },
-    {
-      "name": "JSON Key - Level 8",
-      "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
-      "settings": {
-        "foreground": "#8BA66A"
       }
     },
     {
