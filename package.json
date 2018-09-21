@@ -24,5 +24,9 @@
       }
     ]
   },
-  "icon": "https://i.loli.net/2018/09/21/5ba4e1199a6d3.png"
+  "icon": "https://i.loli.net/2018/09/21/5ba4e1199a6d3.png",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:01010101lzy/mihari.git"
+  }
 }
