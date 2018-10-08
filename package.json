@@ -2,7 +2,7 @@
   "name": "mihari",
   "displayName": "mihari",
   "description": "A neutral theme",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "publisher": "rynco",
   "engines": {
     "vscode": "^1.27.0"
