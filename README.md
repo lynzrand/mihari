@@ -1,7 +1,5 @@
 # Mihari & Mahiro Themes
 
-**THIS IS JUST A PREVIEW VERSION, COLORS COULD CHANGE IN THE FUTURE**
-
 Mihari and Mahiro are dark and light VSCode themes. Both themes fearture a
 medium contrast and friendly colors. Borders of UI elements are by default
 invisible.
@@ -10,11 +8,11 @@ invisible.
 
 ## Preview
 
-![Showcase](https://i.loli.net/2018/09/21/5ba4e0872966e.png)
+![Showcase](preview/showcase.png)
 
 Mihari
 
-![Mihari](https://i.loli.net/2018/09/21/5ba4e08736380.png)
+![Mihari](preview/mihari_bg.png)
 
 Previews for Mahiro coming Soon™
 

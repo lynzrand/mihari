@@ -108,7 +108,7 @@
     "gitDecoration.conflictingResourceForeground": "#E1BD09",
     "gitDecoration.modifiedResourceForeground": "#8BA66A",
     "gitDecoration.submoduleResourceForeground": "#454D53",
-    "gitDecoration.untrackedResourceForeground": "#454D53",
+    "gitDecoration.untrackedResourceForeground": "#DF3D8B",
 
     /* TitleBar */
     "titleBar.activeBackground": "#1E252A", // base2
