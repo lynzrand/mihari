@@ -1,5 +1,5 @@
 {
-  "name": "Mihari",
+  "name": "Mihari Bordered",
   "type": "dark",
   /*
     0F171C
@@ -28,7 +28,7 @@
     "widget.shadow": "#0000003D",
     "errorForeground": "#FF5B35",
 
-    "input.background": "#1E252A",
+    "input.background": "#0F171C",
     "input.border": "#2E363C",
     "input.foreground": "#90989F",
     "input.placeholderForeground": "#454D53",
@@ -89,20 +89,20 @@
     "dropdown.border": "#2E363C",
 
     /* Activity Bar & Sidebar */
-    "activityBar.background": "#1E252A", // base2
+    "activityBar.background": "#0F171C", // base2
     "activityBar.foreground": "#90989F", // base00
     "activityBarBadge.background": "#2E363C",
     "activityBarBadge.foreground": "#E1BD09",
     "sideBarTitle.foreground": "#90989F",
-    "sideBarSectionHeader.background": "#1E252A", // base2
-    "sideBar.background": "#1E252A", // base2
+    "sideBarSectionHeader.background": "#0F171C", // base2
+    "sideBar.background": "#0F171C", // base2
     "sideBar.foreground": "#90989F", // base0
     "sideBar.dropBackground": "#BA55D844",
-    "list.activeSelectionBackground": "#0F171C",
+    "list.activeSelectionBackground": "#FF5B3544",
     "list.activeSelectionForeground": "#C4CDD5",
     "list.hoverBackground": "#BA55D844",
     "list.dropBackground": "#BA55D844",
-    "list.inactiveSelectionBackground": "#0F171C",
+    "list.inactiveSelectionBackground": "#FF5B3544",
     "list.inactiveSelectionForeground": "#C4CDD5",
 
     /* Sidebar > Git Decorations */
@@ -132,9 +132,9 @@
     "tab.inactiveForeground": "#90989F",
 
     /* StatusBar */
-    "statusBar.background": "#1E252A", // base3
+    "statusBar.background": "#0F171C", // base3
     "statusBar.debuggingBackground": "#FF5B35", // organe
-    "statusBar.noFolderBackground": "#1E252A", // base3
+    "statusBar.noFolderBackground": "#0F171C", // base3
     "statusBar.foreground": "#90989F", // base0
     "statusBarItem.prominentBackground": "#C4CDD5",
     "extensionBadge.remoteBackground": "#2e363c",
@@ -144,7 +144,7 @@
     "extensionButton.prominentHoverBackground": "#454D53",
 
     /* Panels */
-    "panel.background": "#1E252A", // base2
+    "panel.background": "#0F171C", // base2
     "panel.border": "#00000000",
     "panelTitle.activeForeground": "#90989F",
     "panelTitle.activeBorder": "#BA55D8",
@@ -155,7 +155,7 @@
 
     /* Shell */
     "terminal.foreground": "#90989F",
-    "terminal.ansiBlack": "#1E252A",
+    "terminal.ansiBlack": "#0F171C",
     "terminal.ansiWhite": "#90989F",
     "terminal.ansiRed": "#E32636",
     "terminal.ansiYellow": "#E1BD09",

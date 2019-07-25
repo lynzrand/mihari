@@ -18,6 +18,11 @@
         "path": "./themes/Mihari-color-theme.json"
       },
       {
+        "label": "Mihari Bordered",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Mihari-Bordered-color-theme.json"
+      },
+      {
         "label": "Mahiro",
         "uiTheme": "vs",
         "path": "./themes/Mahiro-color-theme.json"
